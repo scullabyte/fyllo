@@ -8,11 +8,11 @@ class App extends Component {
     return (
     <Container fluid>
       <Row>
-    <Col/>
-    <Col xs={6}>
-    <GuessBox/>
-    </Col>
-    <Col/>
+        <Col/>
+          <Col xs={6}>
+            <GuessBox/>
+          </Col>
+        <Col/>
         </Row>
       </Container>
     );
